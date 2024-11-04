@@ -916,6 +916,11 @@ h6 {
        columns: 100px;
 }
 
+.columns-\[300px\] {
+  -moz-columns: 300px;
+       columns: 300px;
+}
+
 .grid-cols-\[150px_1fr_auto\] {
   grid-template-columns: 150px 1fr auto;
 }
@@ -1275,6 +1280,11 @@ h6 {
 
   .max-md\:max-w-\[90\%\] {
     max-width: 90%;
+  }
+
+  .max-md\:columns-\[100px\] {
+    -moz-columns: 100px;
+         columns: 100px;
   }
 
   .max-md\:flex-col {
