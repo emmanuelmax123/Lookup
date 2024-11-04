@@ -1269,19 +1269,23 @@ h6 {
   }
 }
 
-@media not all and (min-width: 361px) {
-  .max-s-phone\:mb-2 {
-    margin-bottom: 0.5rem;
-  }
-
-  .max-s-phone\:mt-2 {
+@media not all and (min-width: 375px) {
+  .max-xs\:mt-2 {
     margin-top: 0.5rem;
   }
 }
 
-@media (min-width: 361px) {
-  .s-phone\:mb-2 {
-    margin-bottom: 0.5rem;
+@media not all and (min-width: 361px) {
+  .max-s-phone\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .max-s-phone\:block {
+    display: block;
+  }
+
+  .max-s-phone\:hidden {
+    display: none;
   }
 }
 

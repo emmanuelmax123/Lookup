@@ -84,7 +84,7 @@ filterBtn.forEach((btn) => {
       if (work.classList.contains("work")) {
         newsSect.classList.add("hidden");
         longlogo.classList.remove("hidden");
-        smallAbout.classList.remove("hidden");
+        smallAbout.classList.add("hidden");
       } else {
         aboutMe.classList.remove("hidden");
         longlogo.classList.remove("hidden");
@@ -155,6 +155,7 @@ function runimages() {
 
 function runProjects() {
   const aboutsection = document.querySelector(".js-aboutsection");
+  const smallaboutsect = document.querySelector(".js-smallAbout");
   const faq = document.querySelector(".js-faq");
   const mainLine = document.querySelector(".js-main");
   const aboutMe = document.querySelector(".js-aboutMe");
@@ -177,6 +178,7 @@ function runProjects() {
   aboutsection.classList.remove("lg:block");
   faq.classList.add("hidden");
   aboutMe.classList.add("hidden");
+  smallaboutsect.classList.add("hidden");
   mainLine.classList.remove("border-r-2", "border-r-[#e8e8e8]");
 
   console.log("works");
