@@ -120,11 +120,7 @@ function runimages() {
   const image = document.querySelector(".js-imgSection");
   image.classList.remove("hidden");
   image.innerHTML = `<div class="columns-[300px] px-4 py-10 space-y-5 max-md:columns-[100px] ">
-        <img
-          src="../assets/images/04F80FF3-4A7B-4AA2-BF76-DB760FBB51C1.jpg"
-          alt=""
-          class="rounded-lg" 
-        />
+      
         <img
           src="../assets/images/689C9EC4-91A2-4021-9837-ED38749D9CD8.jpg "
           alt=""
@@ -139,7 +135,7 @@ function runimages() {
         <img src="../assets/images/image (27).png " alt="" class="rounded-lg"  />
         <img src="../assets/images/image (28).png " alt="" class="rounded-lg"  />
         <img src="../assets/images/image (29).png " alt="" class="rounded-lg" />
-        <img src="../assets/images/image (30).png " alt="" class="rounded-lg" />
+
         <img src="../assets/images/wk (1).jpg " alt="" class="rounded-lg" />
         <img src="../assets/images/image (21).png " alt="" class="rounded-lg" />
         <img src="../assets/images/MicrosoftTeams-image (26) 1.jpg" alt="" class="rounded-lg">
