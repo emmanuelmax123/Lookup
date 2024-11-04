@@ -130,6 +130,9 @@ function runimages() {
           alt=""
           class="rounded-lg" 
         />
+        
+        <img src="../assets/images/grad.jpg " alt="" class="rounded-lg" />
+        <img src="../assets/images/firstyear.jpg " alt="" class="rounded-lg" />
         <img src="../assets/images/image (22).png " alt="" class="rounded-lg" />
         <img src="../assets/images/image (23).png " alt="" class="rounded-lg" />
         <img src="../assets/images/image (24).png " alt="" class="rounded-lg" />
@@ -150,6 +153,9 @@ function runimages() {
         <img src="../assets/images/dee3 1.jpg" alt="" class="rounded-lg">
         <img src="../assets/images/dee4.jpg" alt="" class="rounded-lg">
         <img src="../assets/images/rediones5 1.jpg" alt="" class="rounded-lg">
+        <img src="../assets/images/RWR5-20240907-HHS-DIPLOMERING-IDE-VT-JWP-101.jpg" alt="" class="rounded-lg">
+        <img src="../assets/images/RWR5-20240907-HHS-DIPLOMERING-IDE-VT-JWP-100.jpg" alt="" class="rounded-lg">
+        <img src="../assets/images/Camera_render 1.jpg" alt="" class="rounded-lg">
       </div>`;
 }
 
@@ -333,9 +339,9 @@ function rmvlink() {
 
   links.forEach((link) => {
     if (window.innerWidth <= 768) {
-      link.removeAttribut("href");
+      link.removeAttribute("href");
     } else {
-      link.setAttribut("href", link.dataset.href);
+      link.setAttribute("href", link.dataset.href);
     }
   });
 }
