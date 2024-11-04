@@ -1287,6 +1287,10 @@ h6 {
   .max-s-phone\:hidden {
     display: none;
   }
+
+  .max-s-phone\:w-full {
+    width: 100%;
+  }
 }
 
 @media (min-width: 375px) {

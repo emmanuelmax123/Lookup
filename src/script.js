@@ -165,6 +165,7 @@ function runProjects() {
   const longlogo = document.querySelector(".js-longLogo");
   const work = document.querySelector(".js-work");
   const contentholder = document.querySelectorAll(".js-forNews");
+  const news = document.querySelector(".js-mynews");
 
   contentholder.forEach((element) => {
     element.classList.remove("hidden");
@@ -179,7 +180,12 @@ function runProjects() {
   faq.classList.add("hidden");
   aboutMe.classList.add("hidden");
   smallaboutsect.classList.add("hidden");
+
   mainLine.classList.remove("border-r-2", "border-r-[#e8e8e8]");
+
+  if (!news.classList.contains("hidden")) {
+    news.classList.add("hidden");
+  }
 
   console.log("works");
 }
