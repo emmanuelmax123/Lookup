@@ -11,7 +11,7 @@ module.exports = {
         "xs-higher": "376px",
         "lg-fit": "920px",
         "sm-fit": "568px",
-        "s-phone": "361px",
+        "s-phone": "480px",
       },
     },
   },

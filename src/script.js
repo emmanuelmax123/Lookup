@@ -119,7 +119,7 @@ function runimages() {
 
   const image = document.querySelector(".js-imgSection");
   image.classList.remove("hidden");
-  image.innerHTML = `<div class="columns-[300px] px-4 py-10 space-y-5">
+  image.innerHTML = `<div class="columns-[100px] px-4 py-10 space-y-5">
         <img
           src="../assets/images/04F80FF3-4A7B-4AA2-BF76-DB760FBB51C1.jpg"
           alt=""
@@ -327,3 +327,17 @@ faqs.forEach((faq) => {
     }
   });
 });
+
+function rmvlink() {
+  const links = document.querySelectorAll(".rmvlink");
+
+  links.forEach((link) => {
+    if (window.innerWidth <= 768) {
+      anchor.removeAttribut("href");
+    } else {
+      anchor.setAttribut("href", anchor.dataset.href);
+    }
+  });
+}
+rmvlink();
+window.addEventListener("resize", rmvlink);
