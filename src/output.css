@@ -1528,6 +1528,10 @@ h6 {
     max-width: 750px;
   }
 
+  .lg\:max-w-\[500px\] {
+    max-width: 500px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
