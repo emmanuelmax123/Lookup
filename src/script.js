@@ -122,36 +122,36 @@ function runimages() {
   image.innerHTML = `<div class="columns-[300px] px-4 py-10 space-y-5 max-md:columns-[100px] ">
       
         <img
-          src="../assets/images/689C9EC4-91A2-4021-9837-ED38749D9CD8.jpg "
+          src="assets/images/689C9EC4-91A2-4021-9837-ED38749D9CD8.jpg "
           alt=""
           class="rounded-lg" 
         />
         
-        <img src="../assets/images/grad.jpg " alt="" class="rounded-lg" />
-        <img src="../assets/images/firstyear.jpg " alt="" class="rounded-lg" />
-        <img src="../assets/images/image (22).png " alt="" class="rounded-lg" />
-        <img src="../assets/images/image (23).png " alt="" class="rounded-lg" />
-        <img src="../assets/images/image (24).png " alt="" class="rounded-lg" />
-        <img src="../assets/images/image (27).png " alt="" class="rounded-lg"  />
-        <img src="../assets/images/image (28).png " alt="" class="rounded-lg"  />
-        <img src="../assets/images/image (29).png " alt="" class="rounded-lg" />
+        <img src="assets/images/grad.jpg " alt="" class="rounded-lg" />
+        <img src="assets/images/firstyear.jpg " alt="" class="rounded-lg" />
+        <img src="assets/images/image (22).png " alt="" class="rounded-lg" />
+        <img src="assets/images/image (23).png " alt="" class="rounded-lg" />
+        <img src="assets/images/image (24).png " alt="" class="rounded-lg" />
+        <img src="assets/images/image (27).png " alt="" class="rounded-lg"  />
+        <img src="assets/images/image (28).png " alt="" class="rounded-lg"  />
+        <img src="assets/images/image (29).png " alt="" class="rounded-lg" />
 
-        <img src="../assets/images/wk (1).jpg " alt="" class="rounded-lg" />
-        <img src="../assets/images/image (21).png " alt="" class="rounded-lg" />
-        <img src="../assets/images/MicrosoftTeams-image (26) 1.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/DSC08945 1.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/hi..2.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/hi..1.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/hi..5 1.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/head 1.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/image 23.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/dee5.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/dee3 1.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/dee4.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/rediones5 1.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/RWR5-20240907-HHS-DIPLOMERING-IDE-VT-JWP-101.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/RWR5-20240907-HHS-DIPLOMERING-IDE-VT-JWP-100.jpg" alt="" class="rounded-lg">
-        <img src="../assets/images/Camera_render 1.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/wk (1).jpg " alt="" class="rounded-lg" />
+        <img src="assets/images/image (21).png " alt="" class="rounded-lg" />
+        <img src="assets/images/MicrosoftTeams-image (26) 1.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/DSC08945 1.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/hi..2.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/hi..1.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/hi..5 1.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/head 1.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/image 23.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/dee5.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/dee3 1.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/dee4.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/rediones5 1.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/RWR5-20240907-HHS-DIPLOMERING-IDE-VT-JWP-101.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/RWR5-20240907-HHS-DIPLOMERING-IDE-VT-JWP-100.jpg" alt="" class="rounded-lg">
+        <img src="assets/images/Camera_render 1.jpg" alt="" class="rounded-lg">
       </div>`;
 }
 

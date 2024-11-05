@@ -4,13 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lookup</title>
-    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="src/output.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script>
+      !(function (t, e) {
+        var o, n, p, r;
+        e.__SV ||
+          ((window.posthog = e),
+          (e._i = []),
+          (e.init = function (i, s, a) {
+            function g(t, e) {
+              var o = e.split(".");
+              2 == o.length && ((t = t[o[0]]), (e = o[1])),
+                (t[e] = function () {
+                  t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+                });
+            }
+            ((p = t.createElement("script")).type = "text/javascript"),
+              (p.crossOrigin = "anonymous"),
+              (p.async = !0),
+              (p.src =
+                s.api_host.replace(".i.posthog.com", "-assets.i.posthog.com") +
+                "/static/array.js"),
+              (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(
+                p,
+                r
+              );
+            var u = e;
+            for (
+              void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
+                u.people = u.people || [],
+                u.toString = function (t) {
+                  var e = "posthog";
+                  return (
+                    "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e
+                  );
+                },
+                u.people.toString = function () {
+                  return u.toString(1) + ".people (stub)";
+                },
+                o =
+                  "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(
+                    " "
+                  ),
+                n = 0;
+              n < o.length;
+              n++
+            )
+              g(u, o[n]);
+            e._i.push([i, s, a]);
+          }),
+          (e.__SV = 1));
+      })(document, window.posthog || []);
+      posthog.init("phc_yJluvM4KybsiggqCRizB8sXLHaug8y3maXIT8LB8b5T", {
+        api_host: "https://eu.i.posthog.com",
+        person_profiles: "identified_only", // or 'always' to create profiles for anonymous users as well
+      });
+    </script>
   </head>
   <body class="bg-[#FAF9F6] font-sans flex-grow">
     <!-- header starts here -->
@@ -20,7 +75,7 @@
       >
         <div class="sm:mb-0 flex justify-center">
           <a href=""
-            ><img src="../assets/logo/logo.svg" alt="lookup logo" class="block"
+            ><img src="assets/logo/logo.svg" alt="lookup logo" class="block"
           /></a>
         </div>
         <div class="flex-1">
@@ -34,7 +89,7 @@
         </div>
         <div>
           <img
-            src="../assets/images/profile.jpg"
+            src="assets/images/profile.jpg"
             alt="profile picture"
             class="size-10 rounded-full hidden sm:block"
           />
@@ -97,7 +152,7 @@
         <li
           class="relative flex justify-end items-center sm:ml-[30px] md:ml-[50px] lg:ml-[270px] group"
         >
-          <a href="../assets/My resume.pdf" download class="pb-1">
+          <a href="assets/My resume.pdf" download class="pb-1">
             <span class="block max-s-phone:hidden">Download CV</span>
             <span class="hidden max-s-phone:block">CV</span>
           </a>
@@ -179,18 +234,18 @@
           class="flex h-[200px] md:h-[250px] space-x-1 w-full mb-4 lg:mb-0 lg:max-w-[750px]"
         >
           <img
-            src="../assets/images/main.jpg"
+            src="assets/images/main.jpg"
             alt=""
             class="rounded-l-3xl w-[55%] object-cover"
           />
           <div class="flex flex-col space-y-1 h-full w-[45%]">
             <img
-              src="../assets/images/main1.jpg"
+              src="assets/images/main1.jpg"
               alt=""
               class="h-1/2 rounded-tr-2xl object-cover"
             />
             <img
-              src="../assets/images/main2.jpg"
+              src="assets/images/main2.jpg"
               alt=""
               class="h-1/2 rounded-br-2xl object-cover"
             />
@@ -211,19 +266,19 @@
                 href="https://www.linkedin.com/in/kolawole-sanyaolu-31812419a/"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><img src="../assets/logo/linkedin-box-fill.svg" alt=""
+                ><img src="assets/logo/linkedin-box-fill.svg" alt=""
               /></a>
               <a
                 href="mailto:sanyaolukolawole202@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><img src="../assets/logo/mail-fill.svg" alt=""
+                ><img src="assets/logo/mail-fill.svg" alt=""
               /></a>
               <a
                 href="https://github.com/emmanuelmax123"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><img src="../assets/logo/github-fill.svg" alt=""
+                ><img src="assets/logo/github-fill.svg" alt=""
               /></a>
             </div>
           </div>
@@ -240,7 +295,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   ><img
-                    src="../assets/logo/pvf.svg"
+                    src="assets/logo/pvf.svg"
                     alt=""
                     class="hidden xs-higher:block"
                 /></a>
@@ -249,7 +304,7 @@
                   href="https://waag.org/en/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  ><img src="../assets/logo/waag.svg" alt=""
+                  ><img src="assets/logo/waag.svg" alt=""
                 /></a>
 
                 <a
@@ -257,7 +312,7 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   ><img
-                    src="../assets/logo/fc.svg"
+                    src="assets/logo/fc.svg"
                     alt=""
                     class="hidden xs-higher:block"
                 /></a>
@@ -266,7 +321,7 @@
                   href="https://www.ahrend.com/en/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  ><img src="../assets/logo/ahrend.svg" alt=""
+                  ><img src="assets/logo/ahrend.svg" alt=""
                 /></a>
               </div>
             </div>
@@ -280,28 +335,28 @@
               <h6>Tech stack</h6>
               <div class="flex justify-between items-center">
                 <div class="flex flex-col items-center">
-                  <img src="../assets/logo/html5-fill.svg" alt="" />
+                  <img src="assets/logo/html5-fill.svg" alt="" />
                   <h5 class="font-bold">HTML</h5>
                 </div>
                 <div class="flex flex-col items-center">
-                  <img src="../assets/logo/css3-fill.svg" alt="" />
+                  <img src="assets/logo/css3-fill.svg" alt="" />
                   <h5 class="font-bold">CSS</h5>
                 </div>
                 <div class="flex flex-col items-center max-s-phone:hidden">
-                  <img src="../assets/logo/tailwind-css-fill.svg" alt="" />
+                  <img src="assets/logo/tailwind-css-fill.svg" alt="" />
                   <h5 class="font-bold block max-xs-:hidden">Tailwind</h5>
                   <h5 class="font-bold hidden xs-:block">Tailwind Css</h5>
                 </div>
                 <div class="flex flex-col items-center">
-                  <img src="../assets/logo/javascript-fill.svg" alt="" />
+                  <img src="assets/logo/javascript-fill.svg" alt="" />
                   <h5 class="font-bold">Javascript</h5>
                 </div>
                 <div class="flex flex-col items-center">
-                  <img src="../assets/logo/nextjs-fill.svg" alt="" />
+                  <img src="assets/logo/nextjs-fill.svg" alt="" />
                   <h5 class="font-bold">Next.js</h5>
                 </div>
                 <div class="flex flex-col items-center">
-                  <img src="../assets/logo/python.svg" alt="" />
+                  <img src="assets/logo/python.svg" alt="" />
                   <h5 class="font-bold">Python</h5>
                 </div>
               </div>
@@ -366,7 +421,7 @@
         <div class="flex flex-col mb-[16px] pm js-forNews">
           <div class="flex">
             <img
-              src="../assets/logo/rediones-color.svg"
+              src="assets/logo/rediones-color.svg"
               alt=""
               class="rounded-full size-12 mr-[14px] border-2 border-[#e8e8e8] p-[2px] flex justify-center items-center cursor-pointer"
             />
@@ -395,13 +450,13 @@
             <div
               class="h-[36px] close-btn float-end rounded-2xl cursor-pointer"
             >
-              <img src="../assets/logo/close-fill.svg" alt="" />
+              <img src="assets/logo/close-fill.svg" alt="" />
             </div>
 
             <!-- hero image + info starts here -->
             <div class="flex w-full max-md:flex-col">
               <img
-                src="../assets/images/rediones landing page.svg"
+                src="assets/images/rediones landing page.svg"
                 alt=""
                 class="w-[498px] h-[256px] mr-5 rounded-xl border-2 border-[#e8e8e8] max-md:mb-4 max-md:w-full max-md:h-full max-s-phone:mr-0"
               />
@@ -432,9 +487,9 @@
                 <div class="flex items-center">
                   <h3 class="w-1/5 max-s-phone:w-1/3">Stack</h3>
                   <div class="w-4/5 space-x-2 flex max-s-phone:w-2/3">
-                    <img src="../assets/logo/file-excel-2-fill.svg" alt="" />
-                    <img src="../assets/logo/file-word-2-fill.svg" alt="" />
-                    <img src="../assets/logo/notion-fill.svg" alt="" />
+                    <img src="assets/logo/file-excel-2-fill.svg" alt="" />
+                    <img src="assets/logo/file-word-2-fill.svg" alt="" />
+                    <img src="assets/logo/notion-fill.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -446,7 +501,7 @@
         <div class="flex flex-col mb-[36px] webdev pm js-forNews">
           <div class="flex">
             <img
-              src="../assets/logo/searchagent.svg"
+              src="assets/logo/searchagent.svg"
               alt=""
               class="rounded-full size-12 mr-[14px] border-2 border-[#e8e8e8] p-[2px] flex justify-center items-center cursor-pointer"
             />
@@ -474,13 +529,13 @@
             <div
               class="h-[36px] close-btn float-end rounded-2xl cursor-pointer"
             >
-              <img src="../assets/logo/close-fill.svg" alt="" />
+              <img src="assets/logo/close-fill.svg" alt="" />
             </div>
 
             <!-- hero image + info starts here -->
             <div class="flex w-full max-md:flex-col">
               <img
-                src="../assets/images/searchagent.jpg"
+                src="assets/images/searchagent.jpg"
                 alt=""
                 class="w-[498px] h-[256px] mr-5 rounded-xl border-2 border-[#e8e8e8] max-sm:object-contain max-md:mb-4 max-md:w-full max-md:h-full max-s-phone:mr-0"
               />
@@ -508,9 +563,9 @@
                 <div class="flex items-center">
                   <h3 class="w-1/5 max-s-phone:w-1/3">Stack</h3>
                   <div class="w-4/5 space-x-2 flex max-s-phone:w-2/3">
-                    <img src="../assets/logo/html5-fill.svg" alt="" />
-                    <img src="../assets/logo/tailwind-css-fill.svg" alt="" />
-                    <img src="../assets/logo/javascript-fill.svg" alt="" />
+                    <img src="assets/logo/html5-fill.svg" alt="" />
+                    <img src="assets/logo/tailwind-css-fill.svg" alt="" />
+                    <img src="assets/logo/javascript-fill.svg" alt="" />
                   </div>
                 </div>
 
@@ -523,7 +578,7 @@
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <img src="../assets/logo/github-fill.svg" alt=""
+                      <img src="assets/logo/github-fill.svg" alt=""
                     /></a>
                   </button>
                 </div>
@@ -536,7 +591,7 @@
         <div class="flex flex-col mb-[36px] ide pm js-forNews">
           <div class="flex">
             <img
-              src="../assets/logo/thaus-color.svg"
+              src="assets/logo/thaus-color.svg"
               alt=""
               class="rounded-full size-12 mr-[14px] border-2 border-[#e8e8e8] p-[2px]"
             />
@@ -569,13 +624,13 @@
             <div
               class="h-[36px] close-btn float-end rounded-2xl cursor-pointer"
             >
-              <img src="../assets/logo/close-fill.svg" alt="" />
+              <img src="assets/logo/close-fill.svg" alt="" />
             </div>
 
             <!-- hero image + info starts here -->
             <div class="flex w-full max-md:flex-col">
               <img
-                src="../assets/images/MDT.png"
+                src="assets/images/MDT.png"
                 alt=""
                 class="w-[498px] h-[256px] mr-5 rounded-xl border-2 border-[#e8e8e8] max-sm:object-contain max-md:w-full max-md:mb-4 max-md:h-full max-s-phone:mr-0"
               />
@@ -608,7 +663,7 @@
                 <div class="flex items-center">
                   <h3 class="w-1/5 max-s-phone:w-1/3">Stack</h3>
                   <div class="w-4/5 max-s-phone:w-2/3">
-                    <img src="../assets/logo/python.svg" alt="" />
+                    <img src="assets/logo/python.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -620,7 +675,7 @@
         <div class="flex flex-col mb-[36px] ide js-forNews">
           <div class="flex">
             <img
-              src="../assets/logo/fc-color.svg"
+              src="assets/logo/fc-color.svg"
               alt=""
               class="rounded-full size-12 mr-[14px] border-2 border-[#e8e8e8] p-[2px] flex justify-center items-center"
             />
@@ -653,13 +708,13 @@
             <div
               class="h-[36px] close-btn float-end rounded-2xl cursor-pointer"
             >
-              <img src="../assets/logo/close-fill.svg" alt="" />
+              <img src="assets/logo/close-fill.svg" alt="" />
             </div>
 
             <!-- hero image + info starts here -->
             <div class="flex w-full max-md:flex-col">
               <img
-                src="../assets/images/formulacruiser.png"
+                src="assets/images/formulacruiser.png"
                 alt=""
                 class="w-[498px] h-[256px] mr-5 rounded-xl border-2 border-[#e8e8e8] max-sm:object-contain max-md:w-full max-md:mb-4 max-md:h-full max-s-phone:mr-0"
               />
@@ -690,10 +745,10 @@
                 <div class="flex items-center">
                   <h3 class="w-1/5 max-s-phone:w-1/3">Stack</h3>
                   <div class="w-4/5 flex space-x-2 max-s-phone:w-2/3">
-                    <img src="../assets/logo/file-word-2-fill.svg" alt="" />
-                    <img src="../assets/logo/blender-fill.svg" alt="" />
+                    <img src="assets/logo/file-word-2-fill.svg" alt="" />
+                    <img src="assets/logo/blender-fill.svg" alt="" />
                     <img
-                      src="../assets/logo/adobe-photoshop-logo-svgrepo-com.svg"
+                      src="assets/logo/adobe-photoshop-logo-svgrepo-com.svg"
                       alt=""
                       class="h-[36px]"
                     />
@@ -716,7 +771,7 @@
         <div class="flex flex-col mb-[36px] ide js-forNews">
           <div class="flex">
             <img
-              src="../assets/logo/fc-color.svg"
+              src="assets/logo/fc-color.svg"
               alt=""
               class="rounded-full size-12 mr-[14px] border-2 border-[#e8e8e8] p-[2px]"
             />
@@ -747,13 +802,13 @@
             <div
               class="h-[36px] close-btn float-end rounded-2xl cursor-pointer"
             >
-              <img src="../assets/logo/close-fill.svg" alt="" />
+              <img src="assets/logo/close-fill.svg" alt="" />
             </div>
 
             <!-- hero image + info starts here -->
             <div class="flex w-full max-md:flex-col">
               <img
-                src="../assets/images/hu4.png"
+                src="assets/images/hu4.png"
                 alt=""
                 class="w-[498px] h-[256px] mr-5 rounded-xl border-2 border-[#e8e8e8] max-sm:object-contain max-md:w-full max-md:mb-4 max-md:h-full max-s-phone:mr-0"
               />
@@ -789,7 +844,7 @@
         <div class="flex flex-col mb-[36px] ide js-forNews">
           <div class="flex">
             <img
-              src="../assets/logo/waag.svg"
+              src="assets/logo/waag.svg"
               alt=""
               class="rounded-full size-12 mr-[14px] border-2 border-[#e8e8e8] p-[2px]"
             />
@@ -821,13 +876,13 @@
             <div
               class="h-[36px] close-btn float-end rounded-2xl cursor-pointer"
             >
-              <img src="../assets/logo/close-fill.svg" alt="" />
+              <img src="assets/logo/close-fill.svg" alt="" />
             </div>
 
             <!-- hero image + info starts here -->
             <div class="flex w-full max-md:flex-col">
               <img
-                src="../assets/images/Airbox front.png"
+                src="assets/images/Airbox front.png"
                 alt=""
                 class="w-[498px] h-[256px] mr-5 rounded-xl border-2 border-[#e8e8e8] max-sm:object-contain max-md:mb-4 max-md:w-full max-md:h-full max-s-phone:mr-0"
               />
@@ -859,7 +914,7 @@
                 <div class="flex items-center">
                   <h3 class="w-1/5 max-s-phone:w-1/3">Stack</h3>
                   <div class="w-4/5 max-s-phone:w-2/3">
-                    <img src="../assets/logo/blender-fill.svg" alt="" />
+                    <img src="assets/logo/blender-fill.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -871,7 +926,7 @@
         <div class="flex flex-col mb-[36px] pm js-forNews">
           <div class="flex">
             <img
-              src="../assets/logo/wildwest.svg"
+              src="assets/logo/wildwest.svg"
               alt=""
               class="rounded-full size-12 mr-[14px] border-2 border-[#e8e8e8] p-[2px]"
             />
@@ -902,13 +957,13 @@
             <div
               class="h-[36px] close-btn float-end rounded-2xl cursor-pointer"
             >
-              <img src="../assets/logo/close-fill.svg" alt="" />
+              <img src="assets/logo/close-fill.svg" alt="" />
             </div>
 
             <!-- hero image + info starts here -->
             <div class="flex w-full max-md:flex-col">
               <img
-                src="../assets/logo/wwstats.svg"
+                src="assets/logo/wwstats.svg"
                 alt=""
                 class="w-[498px] h-[256px] mr-5 rounded-xl border-2 border-[#e8e8e8] max-sm:object-contain max-md:mb-4 max-md:w-full max-md:h-full max-s-phone:mr-0"
               />
@@ -943,8 +998,8 @@
                 <div class="flex items-center">
                   <h3 class="w-1/5 max-s-phone:w-1/3">Stack</h3>
                   <div class="w-4/5 flex space-x-2 max-s-phone:w-2/3">
-                    <img src="../assets/logo/tiktok-fill.svg" alt="" />
-                    <img src="../assets/logo/file-excel-2-fill.svg" alt="" />
+                    <img src="assets/logo/tiktok-fill.svg" alt="" />
+                    <img src="assets/logo/file-excel-2-fill.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -956,7 +1011,7 @@
         <div class="flex flex-col mb-[36px] ide js-forNews">
           <div class="flex">
             <img
-              src="../assets/logo/ahrend-color.svg"
+              src="assets/logo/ahrend-color.svg"
               alt=""
               class="rounded-full size-12 mr-[14px] border-2 border-[#e8e8e8] p-[2px]"
             />
@@ -987,13 +1042,13 @@
             <div
               class="h-[36px] close-btn float-end rounded-2xl cursor-pointer"
             >
-              <img src="../assets/logo/close-fill.svg" alt="" />
+              <img src="assets/logo/close-fill.svg" alt="" />
             </div>
 
             <!-- hero image + info starts here -->
             <div class="flex w-full max-md:flex-col">
               <img
-                src="../assets/images/ahrend.png"
+                src="assets/images/ahrend.png"
                 alt=""
                 class="w-[498px] h-[256px] mr-5 rounded-xl border-2 border-[#e8e8e8] max-sm:object-contain max-md:mb-4 max-md:w-full max-md:h-full max-s-phone:mr-0"
               />
@@ -1039,7 +1094,7 @@
             </div>
             <div class="w-1/5 max-s-phone:hidden">
               <img
-                src="../assets/images/rediones5-symbol-white-final.jpg"
+                src="assets/images/rediones5-symbol-white-final.jpg"
                 alt=""
                 class="rounded-md"
               />
@@ -1071,7 +1126,7 @@
             </div>
             <div class="w-1/5 max-s-phone:hidden">
               <img
-                src="../assets/images/MicrosoftTeams-image (26) 1.jpg"
+                src="assets/images/MicrosoftTeams-image (26) 1.jpg"
                 alt=""
                 class="rounded-md w-full"
               />
@@ -1090,7 +1145,7 @@
             </div>
             <div class="w-1/5 max-s-phone:hidden">
               <img
-                src="../assets/images/image (22).png"
+                src="assets/images/image (22).png"
                 alt=""
                 class="rounded-md w-full"
               />
@@ -1113,7 +1168,7 @@
             </div>
             <div class="w-1/5 max-s-phone:hidden">
               <img
-                src="../assets/images/DSC08945 1.jpg"
+                src="assets/images/DSC08945 1.jpg"
                 alt=""
                 class="rounded-md w-full"
               />
@@ -1132,7 +1187,7 @@
             </div>
             <div class="w-1/5 max-s-phone:hidden">
               <img
-                src="../assets/logo/waag-color.svg"
+                src="assets/logo/waag-color.svg"
                 alt=""
                 class="rounded-md w-full"
               />
@@ -1154,7 +1209,7 @@
             </div>
             <div class="w-1/5 max-s-phone:hidden">
               <img
-                src="../assets/logo/wildwest.svg"
+                src="assets/logo/wildwest.svg"
                 alt=""
                 class="rounded-md w-full"
               />
@@ -1185,7 +1240,7 @@
             Some results may have been removed under data protection law in
             Europe.
           </h5>
-          <img src="../assets/images/lookup.svg" alt="" />
+          <img src="assets/images/lookup.svg" alt="" />
         </div>
       </section>
 
@@ -1224,7 +1279,7 @@
           <!-- rediones -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/rediones-color.svg" alt="" />
+              <img src="assets/logo/rediones-color.svg" alt="" />
             </div>
 
             <div class="ml-6 w-3/4">
@@ -1237,7 +1292,7 @@
           <!-- serach agent -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/serachagent-color.svg" alt="" />
+              <img src="assets/logo/serachagent-color.svg" alt="" />
             </div>
 
             <div class="ml-6 w-3/4">
@@ -1250,7 +1305,7 @@
           <!-- research group -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/thaus-color.svg" alt="" />
+              <img src="assets/logo/thaus-color.svg" alt="" />
             </div>
 
             <div class="ml-6 w-3/4">
@@ -1263,7 +1318,7 @@
           <!-- formula cruiser -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/fc-color.svg" alt="" />
+              <img src="assets/logo/fc-color.svg" alt="" />
             </div>
 
             <div class="ml-6 w-3/4">
@@ -1276,7 +1331,7 @@
           <!-- HU4 -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/fc-color.svg" alt="" />
+              <img src="assets/logo/fc-color.svg" alt="" />
             </div>
 
             <div class="ml-6 w-3/4">
@@ -1289,7 +1344,7 @@
           <!-- Waag -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/waag-color.svg" alt="" />
+              <img src="assets/logo/waag-color.svg" alt="" />
             </div>
 
             <div class="ml-6 w-3/4">
@@ -1302,7 +1357,7 @@
           <!-- Wildwest -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/ww-color.svg" alt="" />
+              <img src="assets/logo/ww-color.svg" alt="" />
             </div>
 
             <div class="ml-6 w-3/4">
@@ -1315,7 +1370,7 @@
           <!-- Ahrend -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/ahrend-color.svg" alt="" />
+              <img src="assets/logo/ahrend-color.svg" alt="" />
             </div>
 
             <div class="ml-6 w-3/4">
@@ -1333,7 +1388,7 @@
           <!-- thaus -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/thaus-color.svg" alt="" />
+              <img src="assets/logo/thaus-color.svg" alt="" />
             </div>
 
             <div class="ml-6 w-3/4">
@@ -1350,7 +1405,7 @@
           <!-- Google -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/google.svg" alt="" />
+              <img src="assets/logo/google.svg" alt="" />
             </div>
             <div class="ml-6 w-3/4">
               <h5>
@@ -1363,7 +1418,7 @@
           <!-- Havard -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/harvard.svg" alt="" />
+              <img src="assets/logo/harvard.svg" alt="" />
             </div>
             <div class="ml-6 w-3/4">
               <h5>Havard CS50: Introduction to python</h5>
@@ -1373,7 +1428,7 @@
           <!-- Meta -->
           <div class="flex">
             <div class="w-1/4 flex items-center justify-center">
-              <img src="../assets/logo/meta.svg" alt="" />
+              <img src="assets/logo/meta.svg" alt="" />
             </div>
             <div class="ml-6 w-3/4">
               <h5>Front-End Developer Professioanl Certificate</h5>
@@ -1397,19 +1452,19 @@
           href="https://www.linkedin.com/in/kolawole-sanyaolu-31812419a/"
           target="_blank"
           rel="noopener noreferrer"
-          ><img src="../assets/logo/linkedin-box-line-foot.svg" alt=""
+          ><img src="assets/logo/linkedin-box-line-foot.svg" alt=""
         /></a>
         <a
           href="mailto:sanyaolukolawole202@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          ><img src="../assets/logo/mail-line-foot.svg" alt=""
+          ><img src="assets/logo/mail-line-foot.svg" alt=""
         /></a>
         <a
           href="https://github.com/emmanuelmax123"
           target="_blank"
           rel="noopener noreferrer"
-          ><img src="../assets/logo/github-line-foot.svg" alt=""
+          ><img src="assets/logo/github-line-foot.svg" alt=""
         /></a>
       </div>
       <p class="flex items-center max-xs:justify-end max-xs:mt-2">
@@ -1418,5 +1473,5 @@
     </footer>
   </body>
 
-  <script src="script.js"></script>
+  <script src="src/script.js"></script>
 </html>
