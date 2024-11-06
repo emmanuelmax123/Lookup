@@ -259,13 +259,11 @@ const faqs = [
   // question 4 starts
   {
     question: "How can someone contact you for collaboration?",
-    answer:
-      "You can reach me through my email or connect with me on LinkedIn. I'm always open to discussing potential collaborations!",
+    answer: `You can reach me through <a href="mailto:sanyaolukolawole202@gmail.com" target="_blank" rel="noopener noreferrer"class="text-[#1036FF]">email</a> or connect with me on <a href="https://www.linkedin.com/in/kolawole-sanyaolu-31812419a/" target="_blank" rel="noopener noreferrer"class="text-[#1036FF]">LinkedIn</a>. I'm always open to discussing potential collaborations!`,
     subQuestions: [
       {
         subQuestion: "Do you offer freelance services?",
-        subAnswer:
-          "Yes, I'm open to freelance opportunities. You can reach me through my email or connect with me on LinkedIn.",
+        subAnswer: `Yes, I'm open to freelance opportunities. You can reach me through <a href="mailto:sanyaolukolawole202@gmail.com" target="_blank" rel="noopener noreferrer"class="text-[#1036FF]">email</a> or connect with me on <a href="https://www.linkedin.com/in/kolawole-sanyaolu-31812419a/" target="_blank" rel="noopener noreferrer"class="text-[#1036FF]">LinkedIn</a>.`,
       },
 
       {
