@@ -14,5 +14,5 @@ Notgoogle provides a glimpse into my professional journey, highlighting my skill
 - Responsive Design with Tailwind CSS
 
 ## Technologies
-Frontend: HTML, Tailwind CSS, JavaScript
-Design Tool: Figma
+- Frontend: HTML, Tailwind CSS, JavaScript
+- Design Tool: Figma
