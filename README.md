@@ -8,9 +8,8 @@ Notgoogle provides a glimpse into my professional journey, highlighting my skill
 
 - Dynamic Filters for Project Sections
 
-- Interactive FAQ Section
-  The FAQ section is designed to mimic Google’s “People Also Ask” feature. Clicking on a main question reveals relevant sub-questions, while clicking on a sub-question shows the answer dynamically.
-
+- Interactive FAQ Section: The FAQ section is designed to mimic Google’s “People Also Ask” feature. Clicking on a main question reveals relevant sub-questions.
+  
 - Responsive Design with Tailwind CSS
 
 ## Technologies
