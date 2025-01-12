@@ -670,8 +670,20 @@ h6 {
   left: 0px;
 }
 
+.left-8 {
+  left: 2rem;
+}
+
 .right-0 {
   right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .col-span-2 {
@@ -726,6 +738,10 @@ h6 {
   margin-bottom: 8px;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -736,6 +752,10 @@ h6 {
 
 .ml-\[5px\] {
   margin-left: 5px;
+}
+
+.ml-\[80px\] {
+  margin-left: 80px;
 }
 
 .mr-5 {
@@ -861,6 +881,10 @@ h6 {
 
 .w-4\/5 {
   width: 80%;
+}
+
+.w-56 {
+  width: 14rem;
 }
 
 .w-\[110px\] {
@@ -1010,6 +1034,10 @@ h6 {
   margin-bottom: calc(27px * var(--tw-space-y-reverse));
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -1119,6 +1147,11 @@ h6 {
   background-color: rgb(250 249 246 / var(--tw-bg-opacity));
 }
 
+.bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
 .bg-none {
   background-image: none;
 }
@@ -1126,6 +1159,10 @@ h6 {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-4 {
@@ -1230,12 +1267,23 @@ h6 {
   color: rgb(232 232 232 / var(--tw-text-opacity));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .opacity-0 {
   opacity: 0;
 }
 
 .opacity-100 {
   opacity: 1;
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .outline-none {
@@ -1247,9 +1295,33 @@ h6 {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.group:hover .group-hover\:block {
+  display: block;
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+@media not all and (min-width: 1024px) {
+  .max-lg\:hidden {
+    display: none;
+  }
 }
 
 @media not all and (min-width: 768px) {
@@ -1343,6 +1415,10 @@ h6 {
 }
 
 @media (min-width: 376px) {
+  .xs-higher\:ml-\[80px\] {
+    margin-left: 80px;
+  }
+
   .xs-higher\:block {
     display: block;
   }
@@ -1477,6 +1553,10 @@ h6 {
 
   .lg\:ml-\[270px\] {
     margin-left: 270px;
+  }
+
+  .lg\:mr-0 {
+    margin-right: 0px;
   }
 
   .lg\:mt-\[24px\] {
