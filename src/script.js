@@ -189,6 +189,25 @@ function runProjects() {
     news.classList.add("hidden");
   }
 
+  const joboption = document.querySelectorAll(".cursor-pointer");
+
+  joboption.forEach((job) => {
+    if (job.classList.contains("active")) {
+      const filter = job.getAttribute("data-filter");
+      const sections = document.querySelectorAll(".ide, .pm, .webdev");
+      sections.forEach((section) => {
+        if (section.classList.contains(filter)) {
+          section.classList.remove("hidden");
+
+          console.log("wordks");
+        } else {
+          section.classList.add("hidden");
+        }
+        console.log(filter);
+      });
+    }
+  });
+
   console.log("works");
 }
 
