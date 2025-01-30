@@ -1,0 +1,12 @@
+   <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sanyaolu Kolawole",
+        "url": "https://sanyaolukolawole.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/kolawole-sanyaolu-31812419a/",
+          "https://github.com/emmanuelmax123",
+        ],
+      }
+      </script>
